@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ff6e00;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logolbc {
+  height: 40px;
+  width: 155px;
+  margin-left: 100px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 13px;
+  letter-spacing: -0.5px;
+  padding-right: 7px;
+}
+
+.nv {
+margin-right: 185px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.login {
+    color: #fff;
+    border-top: 0;
+    border-bottom: 0;
+    width: 140px;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 130px;
+    border: 1px solid #fff;
+
+}
+
+.login:hover {
+  background-color: white;
+ color: #ff6e00;
+}
+
+.login a:hover {
+  color: #ff6e00;
+  text-decoration: none;
+}
+
+.login a {
+  display: block;
+  text-align: center;
+  height: 100%;
+  line-height: 60px;
+}
